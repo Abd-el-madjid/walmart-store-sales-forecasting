@@ -1,0 +1,98 @@
+#dataTable_wrapper {
+    margin: 20px auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 12px;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    max-width: 800px;
+    /* Set your desired maximum width */
+}
+
+.dataTables_wrapper .dataTables_filter {
+    margin: 10px;
+    float: right;
+    text-align: right;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0em;
+}
+#dataTable {
+    width: 100%;
+    /* Ensure the table takes up 100% of the container width */
+}
+
+#dataTable th,
+#dataTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#dataTable th {
+    background-color: #46807f;
+    color: white;
+}
+
+#dataTable tbody tr:hover {
+    background-color: #f20a4b3d;
+    cursor: pointer;
+}
+
+/* Additional styles for DataTables pagination */
+.dataTables_wrapper {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Styles for scrollbar */
+#dataTable_wrapper::-webkit-scrollbar {
+    height: 5px;
+    width: 8px;
+    background-color: #f5f5f5;
+}
+
+#dataTable_wrapper::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+#dataTable_wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+
+
+
+#loading-message{
+    border: 16px solid rgb(179, 46, 46);
+    width: 120px;
+    height: 120px;
+
+    border-top: 16px solid #212323;
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+#dataTable td,th {
+    width: auto !important;
+    padding: 0;
+    vertical-align: top;
+}

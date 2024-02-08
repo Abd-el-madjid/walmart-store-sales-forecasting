@@ -1,0 +1,9 @@
+plotly
+holidays
+scikit-learn
+lightgbm
+numpy
+pandas
+matplotlib
+seaborn
+tensorflow
